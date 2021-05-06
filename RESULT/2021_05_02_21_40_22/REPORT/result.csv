@@ -1,0 +1,8 @@
+,pre_estimators,estimator,score_train,score_test,execution_time
+0,"[VarianceThreshold(), SelectKBest(k=5)]","[Lasso(alpha=73.43478288694959, fit_intercept=False, normalize=True)]",-3.0450438839628635,-2.5805933889971424,0.28127217292785645
+1,"[VarianceThreshold(), SelectKBest(k=5)]","[RandomForestRegressor(criterion='mae', max_depth=4, min_samples_leaf=121,
+                      n_estimators=389, n_jobs=-1)]",-0.02034872528074816,-0.007715457185230257,1.2698626518249512
+2,[SelectKBest(k=5)],"[RandomForestRegressor(criterion='mae', max_depth=4, min_samples_leaf=121,
+                      n_estimators=389, n_jobs=-1)]",0.33750138916506167,0.38264737998387477,1.160311222076416
+3,[SelectKBest(k=5)],"[Lasso(alpha=73.43478288694959, fit_intercept=False, normalize=True)]",-3.2566629499610755,-2.773099894375209,0.17659974098205566
+4,"[VarianceThreshold(), SelectKBest(k=5)]","[Lasso(alpha=73.43478288694959, fit_intercept=False, normalize=True)]",0.044170302790218385,-0.02465612018217689,0.17171192169189453

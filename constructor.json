@@ -1,0 +1,107 @@
+{
+  "estimators": {
+    "0": {
+      "model": "RandomForestRegressor",
+      "parameters": {
+        "0": {
+          "name": "n_estimators",
+          "values": {
+            "type": "int",
+            "min": 1,
+            "max": 1000
+          }
+        },
+        "1": {
+          "name": "criterion",
+          "values": {
+            "type": "list",
+            "list": [
+              "mse",
+              "mae"
+            ]
+          }
+        },
+        "2": {
+          "name": "max_depth",
+          "values": {
+            "type": "int",
+            "min": 2,
+            "max": 13
+          }
+        },
+        "3": {
+          "name": "min_samples_leaf",
+          "values": {
+            "type": "int",
+            "min": 1,
+            "max": 250
+          }
+        },
+        "4": {
+          "name": "max_features",
+          "values": {
+            "type": "list",
+            "list": [
+              "auto",
+              "sqrt",
+              "log2"
+            ]
+          }
+        }
+      }
+    },
+    "1": {
+      "model": "Lasso",
+      "parameters": {
+        "0": {
+          "name": "alpha",
+          "values": {
+            "type": "float",
+            "min": 0,
+            "max": 10
+          }
+        },
+        "1": {
+          "name": "fit_intercept",
+          "values": {
+            "type": "boolean"
+          }
+        },
+        "2": {
+          "name": "normalize",
+          "values": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  },
+  "pre-estimators": {
+    "0": {
+      "model": "VarianceThreshold",
+      "parameters": {
+        "0": {
+          "name": "threshold",
+          "values": {
+            "type": "float",
+            "min": 0,
+            "max": 5
+          }
+        }
+      }
+    },
+    "1": {
+      "model": "SelectKBest",
+      "parameters": {
+        "0": {
+          "name": "k",
+          "values": {
+            "type": "int",
+            "min": 1,
+            "max": 3
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "Preprocessing": [
+    {
+      "name": "StandardScaler",
+      "parameter": {
+        "with_std": "True"
+      }
+    },
+    {
+      "name": "Normalizer",
+      "parameter": {
+        "norm": "l1"
+      }
+    },
+    {
+      "name": "SimpleImputer",
+      "parameter": {
+        "strategy": "most_frequent"
+      }
+    },
+    {
+      "name": "MinMaxScaler",
+      "parameter": {
+        "range": "20"
+      }
+    },
+    {
+      "name": "Binarization",
+      "parameter": {
+        "threshold": "1"
+      }
+    },
+    {
+      "name": "VarianceThreshold",
+      "parameter": {
+        "threshold": "50"
+      }
+    },
+    {
+      "name": "SelectKBest",
+      "parameter": {
+        "k_feat": "20"
+      }
+    }
+  ],
+  "MLA": [
+    {
+      "name": "KNN",
+      "parameter": {
+        "k_value": ""
+      }
+    },
+    {
+      "name": "RandomForest",
+      "parameter": {
+        "estimator": "2",
+        "max_depth": "2"
+      }
+    },
+    {
+      "name": "AdaBoostRegressor",
+      "parameter": {
+        "n_estimator": "2",
+        "loss": "linear"
+      }
+    }
+  ]
+}

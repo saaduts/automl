@@ -1,0 +1,65 @@
+,pre_estimators,estimator,score_train,score_test,execution_time
+0,[VarianceThreshold()],"[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",0.6099738337857523,0.5837127555534184,0.9067811965942383
+1,[VarianceThreshold()],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.02649067617930634,0.03751759491357709,0.1259019374847412
+2,"[SelectKBest(k=5), VarianceThreshold()]","[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",0.5845609626393393,0.5707570687464554,1.1359527111053467
+3,"[VarianceThreshold(), SelectKBest(k=5)]","[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.2235677180031591,0.2078242684192514,0.1129152774810791
+4,[SelectKBest(k=5)],"[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",-0.019995669346543288,-0.009684535992730892,0.6354634761810303
+5,[SelectKBest(k=5)],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",-2.9454226976139717,-3.004797983390767,0.1148383617401123
+6,[SelectKBest(k=5)],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",-0.02833870439745012,-0.05474886452563621,0.1364126205444336
+7,"[SelectKBest(k=5), VarianceThreshold()]","[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.0,-0.00270737604703597,0.12111091613769531
+8,[SelectKBest(k=5)],"[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",-0.018584376736393127,-0.00864970543601129,0.9976253509521484
+9,"[VarianceThreshold(), SelectKBest(k=5)]","[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.07018177258765268,0.04331989784941703,0.1794135570526123
+10,[VarianceThreshold()],"[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",-0.01937185603612024,-0.009224591549774175,0.5600693225860596
+11,[VarianceThreshold()],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.08705119881070389,0.09314280629807248,0.10757660865783691
+12,[VarianceThreshold()],"[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",-0.02087700703322759,-0.010340810117056565,0.7812099456787109
+13,"[VarianceThreshold(), SelectKBest(k=5)]","[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",-0.02056536561952127,-0.010107912777351569,0.6349737644195557
+14,[SelectKBest(k=5)],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",-1.1521799919933429,-1.2587349667430434,0.11461210250854492
+15,[SelectKBest(k=5)],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",-1.42912306814795,-1.5110776571522293,0.15076375007629395
+16,"[SelectKBest(k=5), VarianceThreshold()]","[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",-0.020834390017123727,-0.0103089083154293,0.5025036334991455
+17,"[SelectKBest(k=5), VarianceThreshold()]","[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",0.5906081147498008,0.578189328900383,0.5090272426605225
+18,"[VarianceThreshold(), SelectKBest(k=5)]","[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.5742088202931277,0.5335460677931883,0.11555171012878418
+19,[SelectKBest(k=5)],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.0,-0.00270737604703597,0.13492798805236816
+20,[VarianceThreshold()],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.026600620584777412,0.03738708821761927,0.19632411003112793
+21,"[SelectKBest(k=5), VarianceThreshold()]","[Lasso(alpha=27.519201829653845, fit_intercept=False)]",-1.415532723307551,-1.5625165872825653,0.11995291709899902
+22,[SelectKBest(k=5)],"[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",-0.02059561479958627,-0.010130479124231373,0.7847058773040771
+23,[VarianceThreshold()],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.23833421309635117,0.22788938491793986,0.10441136360168457
+24,[VarianceThreshold()],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.034341215083689036,0.04390029447702737,0.12699532508850098
+25,[VarianceThreshold()],"[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",-0.016673006823892944,-0.007283447912740826,0.1346750259399414
+26,[SelectKBest(k=5)],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.0,-0.00270737604703597,0.12388086318969727
+27,"[SelectKBest(k=5), VarianceThreshold()]","[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",0.39416549823873026,0.4400214863810976,1.0926740169525146
+28,[SelectKBest(k=5)],"[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",-0.02089470627129364,-0.010354064128925478,0.4578430652618408
+29,[VarianceThreshold()],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.0,-0.00270737604703597,0.10511231422424316
+30,[SelectKBest(k=5)],"[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",-0.020252120052031586,-0.009874735257048961,1.0729916095733643
+31,"[SelectKBest(k=5), VarianceThreshold()]","[Lasso(alpha=27.519201829653845, fit_intercept=False)]",-2.8851229377786938,-2.927489216483143,0.1399838924407959
+32,"[SelectKBest(k=5), VarianceThreshold()]","[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",0.7258981305330634,0.5447992274957819,0.23573899269104004
+33,[SelectKBest(k=5)],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",-1.6186468572996278,-1.744423334036611,0.22128653526306152
+34,[SelectKBest(k=5)],"[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",0.3591893886875702,0.40747886342926487,0.24074912071228027
+35,[VarianceThreshold()],"[Lasso(alpha=27.519201829653845, fit_intercept=False)]",0.051474862968762025,0.05997373921855198,0.12074851989746094
+36,"[SelectKBest(k=5), VarianceThreshold()]","[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",0.7659009396361542,0.579031126232755,0.7343535423278809
+37,[SelectKBest(k=5)],"[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",0.4049856517787631,0.44882501180649004,0.9217221736907959
+38,[SelectKBest(k=5)],"[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",0.3909847419132547,0.43903669469317463,0.8671247959136963
+39,"[VarianceThreshold(), SelectKBest(k=5)]","[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",0.40867323321792626,0.4505718077939821,1.1521711349487305
+40,"[VarianceThreshold(), SelectKBest(k=5)]","[RandomForestRegressor(criterion='mae', max_depth=9, min_samples_leaf=215,
+                      n_estimators=820, n_jobs=-1)]",-0.02040831538191834,-0.009990889381398471,0.9579203128814697
+41,"[SelectKBest(k=5), VarianceThreshold()]","[Lasso(alpha=27.519201829653845, fit_intercept=False)]",-1.2556619879482978,-1.343429459266639,0.11668753623962402
+42,"[SelectKBest(k=5), VarianceThreshold()]","[Lasso(alpha=27.519201829653845, fit_intercept=False)]",-0.6566376471662125,-0.764306347126722,0.1479320526123047
